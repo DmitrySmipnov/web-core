@@ -1,4 +1,6 @@
 .menu-section{
     display: flex;
+    overflow: scroll;
+
     
 }
