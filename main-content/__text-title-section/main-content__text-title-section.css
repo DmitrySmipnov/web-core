@@ -1,0 +1,14 @@
+.main-content__text-title-section {
+    /*border: 1px dashed black;*/
+    font-family: 'TT Lakes';
+    font-size: 28rem;
+    line-height: 40rem;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    font-weight: bold;
+
+    background-image: url(highlighting-strip.svg);
+    background-repeat: no-repeat;
+
+    padding-left: 16px;
+}

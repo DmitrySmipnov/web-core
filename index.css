@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(fonts/TTLakes-Regular.eot);
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url(fonts/TTLakes-Regular.eot) format('embedded-opentype'),
+        url(fonts/TTLakes-Regular.woff) format('woff'),
+        url(fonts/TTLakes-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(fonts/TTLakes-Medium.eot);
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url(fonts/TTLakes-Medium.eot) format('embedded-opentype'),
+        url(fonts/TTLakes-Medium.woff) format('woff'),
+        url(fonts/TTLakes-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(fonts/TTLakes-Bold.eot);
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url(fonts/TTLakes-Bold.eot) format('embedded-opentype'),
+        url(fonts/TTLakes-Bold.woff) format('woff'),
+        url(fonts/TTLakes-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+*{
+    /*border: 1px dashed black;*/
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    
+/* УДАЛИТЬ ПОТОМ ГРАНИЦЫ! */
+
+    border: 1px dashed black;
+    width:320rem;
+    font-size:1px;
+}
+
+body{
+    margin:0;
+    font-size:16rem;
+}

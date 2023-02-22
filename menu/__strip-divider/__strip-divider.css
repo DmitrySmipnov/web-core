@@ -1,0 +1,6 @@
+.menu__strip-divider{
+    width:2rem;
+    height: 32rem;
+    border-radius: 1rem;    
+    background-image: url(strip-divider.svg);
+}

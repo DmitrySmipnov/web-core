@@ -1,0 +1,9 @@
+.menu-section__text-item {
+    display: block;
+    font-family: 'TT Lakes';
+    font-size: 16rem;
+    line-height: 24rem;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    font-weight:500;
+}

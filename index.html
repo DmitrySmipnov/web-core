@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+    <meta charset="UTF-8">
+    <title>web-core</title>
+    <link href="index.css" rel="stylesheet">
+<!-- Стили для основного меню  -->
+    <link href="menu/menu.css" rel="stylesheet">
+    <link href="menu/__item/menu__item.css" rel="stylesheet">
+    <link href="menu/__button/menu__button.css" rel="stylesheet">
+    <link href="menu/__strip-divider/__strip-divider.css" rel="stylesheet">
+<!-- Стили для основного содержания  -->
+    <link href="main-content/main-content.css" rel="stylesheet">
+    <link href="main-content/__list-item/main-content__list-item.css" rel="stylesheet">
+<!-- Стили для названия раздела  -->
+    <link href="main-content/__title-section/main-content__title-section.css" rel="stylesheet">
+    <link href="main-content/__text-title-section/main-content__text-title-section.css" rel="stylesheet">
+<!-- Стили для меню раздела  -->
+    <link href="main-content/menu-section/menu-section.css" rel="stylesheet">
+    <link href="main-content/menu-section/__item/menu-section__item.css" rel="stylesheet">
+    <link href="main-content/menu-section/__text-item/menu-section__text-item.css" rel="stylesheet">
+    <link href="main-content/menu-section/menu-section--selected-item.css" rel="stylesheet">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+</head>
+
+<body>
+    <main>
+
+<!-- Меню -->
+
+        <ul class="menu">
+
+    <!-- Бургер меню -->
+            <li class="menu__item 
+                       menu__burger-menu">
+                <button class="menu__button" type="button">
+                    <img class="menu__icon-burger-menu" src="menu/__burger-menu/icon-burger-menu.svg" alt="Открыть меню">
+                </button>
+            </li>
+
+    <!-- Логотип -->
+            <li class="menu__item logo">
+                <button class="menu__button" type="button">
+                    <img class="logo__icon-logo" src="menu/logo/icon-logo.svg" alt="На главную">
+                </button>
+            </li>
+
+    <!-- Полоска разделитель -->
+            <li class="menu__item 
+                       menu__strip-divider">
+            </li>
+        
+        
+    <!-- Заявка на ремонт -->
+            <li class="menu__item 
+                       application-repair">
+                <button class="menu__button" type="button">
+                    <img class="menu__icon-application-repair" src="menu/application-repair/icon-application-repair.svg" alt="Заявка на ремонт">
+                </button>
+            </li>
+
+    <!-- Статус ремонта -->
+            <li class="menu__item 
+                       repair-status">
+                <button class="menu__button" type="button">
+                    <img class="menu__icon-repair-status" src="menu/repair-status/icon-repair-status.svg" alt="Статус ремонта">
+                </button>
+            </li>
+
+        </ul>
+    
+<!-- Основное содержание -->
+
+        <section class="main-content">
+
+            <ul class="main-content__list-item">
+
+    <!-- Название выбранного раздела  -->
+                <li class="main-content__item 
+                           main-content__title-section">
+                    <h1 class="main-content__text-title-section">
+                        Услуги и сервисы
+                    </h1>
+                </li>
+
+    <!-- Меню раздела  -->
+                <li class="main-content__item">
+                    <ul class="menu-section">
+        <!-- Ремонтируемые устройства          -->
+                        <li class="menu-section__item 
+                                   menu-section--selected-item">
+                            <span class="menu-section__text-item">
+                                Ремонтируемые устройства
+                            </span>
+                        </li>
+
+        <!-- Дополнительные услуги -->
+                        <li class="menu-section__item">
+                            <span class="menu-section__text-item">
+                                Дополнительные услуги
+                            </span>
+                        </li>
+                    
+                    
+                    </ul>
+
+
+                </li>
+          
+            </ul>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,9 @@
+.menu{
+    width:100%;
+    height:88rem;
+    display: flex;
+    justify-content:space-between;
+    padding:24rem 16rem 24rem 16rem; 
+    list-style-type: none;
+}
+
