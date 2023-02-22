@@ -9,6 +9,7 @@
 
     background-image: url(highlighting-strip.svg);
     background-repeat: no-repeat;
+    background-position: left center;
 
     padding:24rem 16rem 24rem 16rem;
 }
