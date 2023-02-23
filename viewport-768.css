@@ -3,7 +3,6 @@
 }
 
 /* Корректировка основного меню  */
-
     .menu{
         padding:24rem; 
     }
@@ -37,6 +36,18 @@
     }
 
 /* Корректировка основного содержания  */
+    /* Название раздела  */
+    .main-content__title-section{
+        /*border: 1px dashed black;*/
+        padding:24px 0 32px 24px;
+    }
+
+    /* Меню раздела  */
+    .menu-section{
+        /*border: 1px dashed black;*/
+        margin-left: 24px;
+    }
+
     /* Содержание раздела  */
 
     .content-section{

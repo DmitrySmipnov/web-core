@@ -2,10 +2,46 @@
     display: block;
 }
 
+/* Корректировка основного меню  */
 .menu{
     display: none;
 }
 
+/* Новая шапка в основном содержании  */
 .header-1120{
     display: flex;
+    justify-content: space-between;
+    padding: 42px 32px 8.37px 0;
 }
+
+.main-content__title-section{
+    padding: 0 0 0 32px;
+    margin-right: 40.2vw;
+}
+
+/* Корректировка меню раздела  */
+.menu-section{
+    flex-wrap: wrap;
+    margin-left: 32px;
+}
+
+.button-menu{
+    /*border: 1px dashed black;*/
+    display: flex;
+    align-self: center; 
+    background-color: inherit;
+}
+
+.text-button-menu{
+    align-self: center;
+
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+
+    padding-right: 8px;
+}
+

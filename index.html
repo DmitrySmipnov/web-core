@@ -14,7 +14,7 @@
 <!-- Стили для основного меню  -->
     <link href="menu/menu.css" rel="stylesheet">
     <link href="menu/__item/menu__item.css" rel="stylesheet">
-    <link href="menu/__button/menu__button.css" rel="stylesheet">
+    <link href="menu/button-menu/button-menu.css" rel="stylesheet">
     <link href="menu/__strip-divider/__strip-divider.css" rel="stylesheet">
 <!-- Стили для основного содержания  -->
     <link href="main-content/main-content.css" rel="stylesheet">
@@ -51,8 +51,8 @@
     <!-- Бургер меню -->
             <button class="
                 menu__item 
-                menu__button
-                menu__burger-menu" 
+                menu__burger-menu
+                button-menu" 
                     type="button">
                 <img class="menu__icon-burger-menu" src="menu/__burger-menu/icon-burger-menu.svg" alt="Открыть меню">
             </button>
@@ -68,7 +68,7 @@
     <!-- Логотип -->
             <button class="
                 menu__item 
-                menu__button
+                button-menu
                 logo" 
                     type="button">
                 <img class="logo__icon-logo" src="menu/logo/icon-logo.svg" alt="На главную">
@@ -77,34 +77,34 @@
     <!-- Телефон (для 768)        -->
             <button class="
                 menu__item
-                menu__button
+                button-menu
                 phone
                 viewport-768" 
                 hidden 
                     type="button">
-                <img class="menu__icon-phone" src="menu/phone/icon-phone.svg" alt="Заявка на ремонт">
+                <img class="phone__icon-phone" src="menu/phone/icon-phone.svg" alt="Заявка на ремонт">
             </button>
 
     <!-- Сообщение (для 768)        -->
             <button class="
                 menu__item
-                menu__button
+                button-menu
                 message
                 viewport-768" 
                 hidden 
                     type="button">
-                <img class="menu__icon-message" src="menu/message/icon-message.svg" alt="Заявка на ремонт">
+                <img class="message__icon-message" src="menu/message/icon-message.svg" alt="Заявка на ремонт">
             </button>
 
     <!-- Профиль (для 768)        -->
             <button class="
                 menu__item
-                menu__button
+                button-menu
                 profile
                 viewport-768" 
                 hidden 
                     type="button">
-                <img class="menu__icon-profile" src="menu/profile/icon-profile.svg" alt="Заявка на ремонт">
+                <img class="profile__icon-profile" src="menu/profile/icon-profile.svg" alt="Заявка на ремонт">
             </button>
 
 
@@ -117,19 +117,19 @@
     <!-- Заявка на ремонт -->
             <button class="
                 menu__item
-                menu__button
+                button-menu
                 application-repair" 
                     type="button">
-                <img class="menu__icon-application-repair" src="menu/application-repair/icon-application-repair.svg" alt="Заявка на ремонт">
+                <img class="application-repair__icon-application-repair" src="menu/application-repair/icon-application-repair.svg" alt="Заявка на ремонт">
             </button>
 
     <!-- Статус ремонта -->
             <button class="
                 menu__item 
-                menu__button
+                button-menu
                 repair-status" 
                     type="button">
-                <img class="menu__icon-repair-status" src="menu/repair-status/icon-repair-status.svg" alt="Статус ремонта">
+                <img class="repair-status__icon-repair-status" src="menu/repair-status/icon-repair-status.svg" alt="Статус ремонта">
             </button>
 
         </nav>
@@ -150,29 +150,33 @@
 
     <!-- Заявка на ремонт (для 1120) -->
             <button class="
-            menu__item
-            menu__button
-
+                button-menu
                 application-repair
-                header-1120__application-repair
                 viewport-1120" 
                     type="button"
                     hidden>
-                <img class="menu__icon-application-repair" src="menu/application-repair/icon-application-repair.svg" alt="Заявка на ремонт">
+                <span class="
+                        application-repair__text
+                        text-button-menu">
+                    Оставить заявку
+                </span>
+                <img class="application-repair__icon-application-repair" src="menu/application-repair/icon-application-repair.svg" alt="Заявка на ремонт">
             </button>
 
     <!-- Статус ремонта (для 1120)-->
             <button class="
-                menu__item 
-                menu__button
+                button-menu
                 repair-status
                 viewport-1120" 
                     type="button"
                     hidden>
-                <img class="menu__icon-repair-status" src="menu/repair-status/icon-repair-status.svg" alt="Статус ремонта">
+                <span class="
+                        application-repair__text
+                        text-button-menu">
+                    Статус ремонта
+                </span>
+                <img class="repair-status__icon-repair-status" src="menu/repair-status/icon-repair-status.svg" alt="Статус ремонта">
             </button>
-    
-
 
             </header>
 
@@ -180,6 +184,16 @@
             <nav class="
                 main-content__item
                 menu-section">
+
+        <!-- Ремонтируемые бренды          -->
+                <button class="
+                    menu-section__item"
+                        type="button">
+                    <span class="menu-section__text-item">
+                        Ремонтируемые бренды
+                    </span>
+                </button>
+
 
         <!-- Ремонтируемые устройства          -->
                 <button class="
@@ -209,12 +223,30 @@
                     </span>
                 </button>
 
+        <!-- Адреса сервисных центров  -->
+                <button class="
+                    menu-section__item"
+                        type="button">
+                    <span class="menu-section__text-item">
+                        Адреса сервисных центров
+                    </span>
+                </button>
+
         <!-- Специальные цены  -->
                 <button class="
                     menu-section__item"
                         type="button">
                     <span class="menu-section__text-item">
                         Специальные цены
+                    </span>
+                </button>
+
+        <!-- Отзывы  -->
+                <button class="
+                    menu-section__item"
+                        type="button">
+                    <span class="menu-section__text-item">
+                        Отзывы
                     </span>
                 </button>
 

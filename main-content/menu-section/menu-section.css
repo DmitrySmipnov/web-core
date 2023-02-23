@@ -1,7 +1,9 @@
 .menu-section{
+    /*border: 1px dashed black;*/
     display: flex;
     overflow: auto;
     margin-bottom: 24rem;
+    margin-left: 16px;
 
     
 }
