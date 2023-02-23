@@ -41,10 +41,7 @@
 }
 
 html{
-    
-/* УДАЛИТЬ ПОТОМ ГРАНИЦЫ! */
-
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     font-size:1px;
 }
 

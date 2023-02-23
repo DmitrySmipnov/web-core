@@ -1,3 +1,35 @@
 .viewport-768{
-    display: inline-block;
+    display: block;
+}
+
+.menu{
+    padding:24rem; 
+}
+
+.menu__burger-menu{
+    margin-right: 2.6vw;
+}
+
+.menu__strip-divider{
+    margin-right: 2.7vw;
+}
+
+.logo{
+    margin-right: 32.65vw;
+}
+
+.phone{
+    margin-right: 2.1vw;
+}
+
+.message{
+    margin-right: 2.1vw;
+}
+
+.profile{
+    margin-right: 2.6vw;
+}
+
+.application-repair{
+    margin-right: 2.1vw;
 }
