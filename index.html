@@ -10,6 +10,8 @@
 
     <title>web-core</title>
     <link href="index.css" rel="stylesheet">
+    <link media="(min-width: 768px) and (max-width: 1439px)" href="viewport-768.css" rel="stylesheet">
+
 <!-- Стили для основного меню  -->
     <link href="menu/menu.css" rel="stylesheet">
     <link href="menu/__item/menu__item.css" rel="stylesheet">
@@ -53,6 +55,14 @@
                 <img class="menu__icon-burger-menu" src="menu/__burger-menu/icon-burger-menu.svg" alt="Открыть меню">
             </button>
 
+    <!-- Полоска разделитель (для 768) -->
+            <div class="
+                menu__item 
+                menu__strip-divider
+                viewport-768" 
+                hidden>
+            </div>
+
     <!-- Логотип -->
             <button class="
                 menu__item 
@@ -61,6 +71,40 @@
                     type="button">
                 <img class="logo__icon-logo" src="menu/logo/icon-logo.svg" alt="На главную">
             </button>
+
+    <!-- Телефон (для 768)        -->
+            <button class="
+                menu__item
+                menu__button
+                phone
+                viewport-768" 
+                hidden 
+                    type="button">
+                <img class="menu__icon-phone" src="menu/phone/icon-phone.svg" alt="Заявка на ремонт">
+            </button>
+
+    <!-- Сообщение (для 768)        -->
+            <button class="
+                menu__item
+                menu__button
+                message
+                viewport-768" 
+                hidden 
+                    type="button">
+                <img class="menu__icon-message" src="menu/message/icon-message.svg" alt="Заявка на ремонт">
+            </button>
+
+    <!-- Профиль (для 768)        -->
+            <button class="
+                menu__item
+                menu__button
+                profile
+                viewport-768" 
+                hidden 
+                    type="button">
+                <img class="menu__icon-profile" src="menu/profile/icon-profile.svg" alt="Заявка на ремонт">
+            </button>
+
 
     <!-- Полоска разделитель -->
             <div class="
