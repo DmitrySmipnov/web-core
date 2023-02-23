@@ -2,34 +2,38 @@
     display: block;
 }
 
-.menu{
-    padding:24rem; 
-}
+/* Корректировка основного меню  */
 
-.menu__burger-menu{
-    margin-right: 2.6vw;
-}
+    .menu{
+        padding:24rem; 
+    }
 
-.menu__strip-divider{
-    margin-right: 2.7vw;
-}
+    .menu__burger-menu{
+        margin-right: 2.6vw;
+    }
 
-.logo{
-    margin-right: 32.65vw;
-}
+    .menu__strip-divider{
+        margin-right: 2.7vw;
+    }
 
-.phone{
-    margin-right: 2.1vw;
-}
+    .logo{
+        margin-right: 32.65vw;
+    }
 
-.message{
-    margin-right: 2.1vw;
-}
+    .phone{
+        margin-right: 2.1vw;
+    }
 
-.profile{
-    margin-right: 2.6vw;
-}
+    .message{
+        margin-right: 2.1vw;
+    }
 
-.application-repair{
-    margin-right: 2.1vw;
-}
+    .profile{
+        margin-right: 2.6vw;
+    }
+
+    .application-repair{
+        margin-right: 2.1vw;
+    }
+
+
