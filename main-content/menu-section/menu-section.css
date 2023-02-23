@@ -1,6 +1,6 @@
 .menu-section{
     display: flex;
-    overflow: scroll;
+    overflow: auto;
     margin-bottom: 24rem;
 
     
