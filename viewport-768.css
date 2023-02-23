@@ -36,4 +36,21 @@
         margin-right: 2.1vw;
     }
 
+/* Корректировка основного содержания  */
+    /* Содержание раздела  */
+
+    .content-section{
+        display: flex;
+    }
+
+    .main-text-section{
+        width: 40.6vw;
+        margin-left: 24px;
+        margin-right: 48px;
+    }
+
+    .picture{
+        width: 46.9vw;
+        background-position: top;
+    }
 
