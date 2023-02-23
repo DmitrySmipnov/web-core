@@ -1,7 +1,14 @@
-.menu-section--selected-item{
+/*.menu-section--selected-item{
     background: #FFFFFF;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
 
 }
+*/
 
+.menu-section__item:hover{
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+
+}
