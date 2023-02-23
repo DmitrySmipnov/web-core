@@ -1,0 +1,8 @@
+.picture{
+    border: 1px dashed black;
+
+    width: 320px;
+    height: 230.8px;
+    background-image: url(picture.png);
+    background-repeat: no-repeat;
+}
