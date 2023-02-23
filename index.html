@@ -35,6 +35,7 @@
     <link href="main-content/content-section/picture/picture.css" rel="stylesheet">
 
     <link media="(min-width: 768px) and (max-width: 1439px)" href="viewport-768.css" rel="stylesheet">
+    <link media="(min-width: 1120px)" href="viewport-1120.css" rel="stylesheet">
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -137,12 +138,43 @@
 
         <section class="main-content">
 
+    <!-- Шапка (для 1120) -->
+            <header class="header-1120">
+
     <!-- Название выбранного раздела  -->
             <h1 class="
                 main-content__item 
                 main-content__title-section">
                 Услуги и сервисы
             </h1>
+
+    <!-- Заявка на ремонт (для 1120) -->
+            <button class="
+            menu__item
+            menu__button
+
+                application-repair
+                header-1120__application-repair
+                viewport-1120" 
+                    type="button"
+                    hidden>
+                <img class="menu__icon-application-repair" src="menu/application-repair/icon-application-repair.svg" alt="Заявка на ремонт">
+            </button>
+
+    <!-- Статус ремонта (для 1120)-->
+            <button class="
+                menu__item 
+                menu__button
+                repair-status
+                viewport-1120" 
+                    type="button"
+                    hidden>
+                <img class="menu__icon-repair-status" src="menu/repair-status/icon-repair-status.svg" alt="Статус ремонта">
+            </button>
+    
+
+
+            </header>
 
     <!-- Меню раздела  -->
             <nav class="
