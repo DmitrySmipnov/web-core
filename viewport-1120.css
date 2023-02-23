@@ -19,12 +19,6 @@
     margin-right: 40.2vw;
 }
 
-/* Корректировка меню раздела  */
-.menu-section{
-    flex-wrap: wrap;
-    margin-left: 32px;
-}
-
 .button-menu{
     /*border: 1px dashed black;*/
     display: flex;
@@ -45,3 +39,34 @@
     padding-right: 8px;
 }
 
+/* Корректировка меню раздела  */
+.menu-section{
+    flex-wrap: wrap;
+    margin-left: 32px;
+}
+
+/* Содержание раздела  */
+.content-section{
+    display: flex;
+}
+
+.main-text-section{
+    width: 43.8vw;
+    margin-left: 34px;
+    margin-right: 36px;
+}
+
+.main-text-section__paragraph-320{
+    display: none;
+}
+
+.main-text-section__paragraph-1120{
+    display: block;
+    margin-bottom: 13.78px;
+}
+
+.picture{
+    width: 47.4vw;
+    height: 383.24px;
+    background-position: top;
+}

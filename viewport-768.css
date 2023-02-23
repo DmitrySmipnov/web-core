@@ -60,8 +60,18 @@
         margin-right: 48px;
     }
 
+    .main-text-section__paragraph-320{
+        display: none;
+    }
+
+    .main-text-section__paragraph-768{
+        display: block;
+        margin-bottom: 10px;
+    }
+
     .picture{
         width: 46.9vw;
+        height: 259.66px;
         background-position: top;
     }
 
