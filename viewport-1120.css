@@ -16,7 +16,7 @@
 
 .main-content__title-section{
     padding: 0 0 0 32px;
-    margin-right: 40.2vw;
+    margin-right: auto;
 }
 
 .button-menu{
@@ -37,6 +37,10 @@
     color: #1B1C21;
 
     padding-right: 8px;
+}
+
+.application-repair{
+    margin-right:32px;
 }
 
 /* Корректировка меню раздела  */
