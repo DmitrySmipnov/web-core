@@ -11,7 +11,6 @@
 
     <link href="../index.css" rel="stylesheet">
     <link href="mobile-menu.css" rel="stylesheet">
-
 <!-- Стили для верхней части меню  -->
     <link href="../menu/menu.css" rel="stylesheet">
     <link href="../menu/menu-item/menu-item.css" rel="stylesheet">
@@ -25,27 +24,9 @@
     <link href="middle-menu/__button/middle-menu__button.css" rel="stylesheet">
 <!-- Стили для нижней части меню  -->
     <link href="bottom-menu/bottom-menu.css" rel="stylesheet">
-  
-
-
-
-    <!-- Стили для основного содержания  -->
-    <link href="main-content/main-content.css" rel="stylesheet">
-    <!-- Стили для названия раздела  -->
-        <link href="main-content/__title-section/main-content__title-section.css" rel="stylesheet">
-    <!-- Стили для меню раздела  -->
-        <link href="main-content/menu-section/menu-section.css" rel="stylesheet">
-        <link href="main-content/menu-section/__item/menu-section__item.css" rel="stylesheet">
-        <link href="main-content/menu-section/__text-item/menu-section__text-item.css" rel="stylesheet">
-    <!-- Стили для основного текста раздел  -->
-        <link href="main-content/content-section/main-text-section/main-text-section.css" rel="stylesheet">
-        <link href="main-content/content-section/main-text-section/__paragraph/main-text-section__paragraph-320.css" rel="stylesheet">
-        <link href="main-content/content-section/main-text-section/__button/main-text-section__button.css" rel="stylesheet">
-    <!-- Стили для картинки раздела  -->
-        <link href="main-content/content-section/picture/picture.css" rel="stylesheet">
-<!-- Стили для разных экранов  -->
-    <link media="(min-width: 768px) and (max-width: 1119px)" href="viewport-768.css" rel="stylesheet">
-    <link media="(min-width: 1120px)" href="viewport-1120.css" rel="stylesheet">
+<!-- Стили для подвала меню  -->
+    <link href="footer-menu/footer-menu.css" rel="stylesheet">
+    <link href="footer-menu/__language/footer-menu__language.css" rel="stylesheet">
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -200,18 +181,41 @@
                             type="button">
                         <img class="bottom-menu__icon-profile" src="../menu/profile/icon-profile.svg" alt="Профиль">
             </button>
+        </nav>
 
+        <!-- Подвал меню  -->
+        <footer class="footer-menu">
+        
+            <!-- Электронная почта -->
+            <p class="
+                    footer-menu__item 
+                    footer-menu__email">
+                mail@cps.com
+            </p>
 
-</nav>
+            <!-- Номер телефона -->
+            <p class="
+                    footer-menu__item 
+                    footer-menu__tel">
+                8 800 890 8900
+            </p>
 
-
-
-
+            <!-- Выбор языка сайта  -->
+            <ul class="
+                    footer-menu__item
+                    footer-menu__language">
+                <li class="footer-menu__language-item">
+                    RU
+                </li>
+                <li class="footer-menu__language-item">
+                    EN
+                </li>
+                <li class="footer-menu__language-item">
+                    CH
+                </li>
+            </ul>
+        </footer>
         </section>
     </main>
-
-    <footer>
-
-    </footer>    
 </body>
 </html>

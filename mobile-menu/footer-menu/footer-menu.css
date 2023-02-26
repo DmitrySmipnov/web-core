@@ -1,0 +1,22 @@
+.footer-menu{
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+
+    padding-left: 24px;
+}
+
+.footer-menu__item:first-child{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.footer-menu__item:nth-child(2){
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    font-weight: bold;
+}
