@@ -12,15 +12,18 @@
     <link href="../index.css" rel="stylesheet">
     <link href="mobile-menu.css" rel="stylesheet">
 
-
-<!-- Стили для основного меню  -->
+<!-- Стили для верхней части меню  -->
     <link href="../menu/menu.css" rel="stylesheet">
     <link href="../menu/menu-item/menu-item.css" rel="stylesheet">
     <link href="../menu/button-menu/button-menu.css" rel="stylesheet">
     <link href="top-menu/exit/exit.css" rel="stylesheet">
     <link href="top-menu/top-menu.css" rel="stylesheet">
     <link href="top-menu/__logo/top-menu__logo.css" rel="stylesheet">
-
+<!-- Стили для средней части меню  -->
+    <link href="middle-menu/middle-menu.css" rel="stylesheet">
+    <link href="middle-menu/__item/middle-menu__item.css" rel="stylesheet">
+    <link href="middle-menu/__button/middle-menu__button.css" rel="stylesheet">
+  
     <!-- Стили для основного содержания  -->
     <link href="main-content/main-content.css" rel="stylesheet">
     <!-- Стили для названия раздела  -->
@@ -86,6 +89,118 @@
         
         
         </nav>
+
+        <!-- Средняя часть меню  -->
+        <ul class="
+                mobile-menu__item
+                middle-menu">
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Ремонт техники
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Услуги и сервисы
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Корпоративным клиентам
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Продавцам техники
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Партнерам
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Производителям
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Наши сервисные центры
+                </button>
+            </li>
+            <li class="middle-menu__item">
+                <button class="
+                        middle-menu__button
+                        button-menu"
+                        type="button"> 
+                    Контакты
+                </button>
+            </li>
+        </ul>
+
+        <!-- Нижняя часть меню  -->
+        <nav class="
+                menu
+                mobile-menu__item 
+                bottom-menu">
+
+            <!-- Кнопка телефона -->
+            <button class="
+                        menu-item 
+                        button-menu
+                        bottom-menu__item 
+                        bottom-menu__phone" 
+                            type="button">
+                        <img class="bottom-menu__icon-phone" src="../menu/phone/icon-phone.svg" alt="Позвонить">
+            </button>
+
+            <!-- Кнопка сообщения -->
+            <button class="
+                        menu-item 
+                        button-menu
+                        bottom-menu__item
+                        bottom-menu__message" 
+                            type="button">
+                        <img class="bottom-menu__icon-message" src="../menu/message/icon-message.svg" alt="Написать">
+            </button>
+
+            <!-- Кнопка профиля -->
+            <button class="
+                        menu-item 
+                        button-menu
+                        bottom-menu__item 
+                        bottom-menu__profile"
+                            type="button">
+                        <img class="bottom-menu__icon-profile" src="../menu/profile/icon-profile.svg" alt="Профиль">
+            </button>
+
+
+</nav>
+
+
+
 
         </section>
     </main>
