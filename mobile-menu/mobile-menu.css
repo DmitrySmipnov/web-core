@@ -1,0 +1,7 @@
+.mobile-menu{
+    border: 1px dashed black;
+    width: 320px; 
+    position: fixed;
+    top:0;
+    left:0;
+}

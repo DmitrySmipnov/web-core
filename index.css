@@ -32,7 +32,7 @@
 }
 
 html{
-    /*border: 1px dashed black;*/
+    /* border: 1px dashed black; */
     box-sizing: border-box;
     font-size:1px;
 }
@@ -40,7 +40,6 @@ html{
 *, *:before, *:after{
     /*border: 1px dashed black;*/
     box-sizing: inherit;
-    margin:0;
     padding:0;
 }
 
