@@ -1,0 +1,18 @@
+.bottom-menu{
+    padding:0;
+    margin-bottom: 16px;
+    justify-content: flex-start;
+    height:auto;
+}
+
+.bottom-menu__item:first-child{
+    margin-left: 24px;
+}
+
+.bottom-menu__item:nth-child(2){
+    margin-left: 16px;
+}
+
+.bottom-menu__item:nth-child(3){
+    margin-left: 16px;
+}
