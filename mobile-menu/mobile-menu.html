@@ -14,11 +14,14 @@
 
 
 <!-- Стили для основного меню  -->
-    <link href="menu/menu.css" rel="stylesheet">
-    <link href="menu/__item/menu__item.css" rel="stylesheet">
+    <link href="../menu/menu.css" rel="stylesheet">
+    <link href="../menu/menu-item/menu-item.css" rel="stylesheet">
     <link href="../menu/button-menu/button-menu.css" rel="stylesheet">
-    <link href="menu/__strip-divider/__strip-divider.css" rel="stylesheet">
-<!-- Стили для основного содержания  -->
+    <link href="top-menu/exit/exit.css" rel="stylesheet">
+    <link href="top-menu/top-menu.css" rel="stylesheet">
+    <link href="top-menu/__logo/top-menu__logo.css" rel="stylesheet">
+
+    <!-- Стили для основного содержания  -->
     <link href="main-content/main-content.css" rel="stylesheet">
     <!-- Стили для названия раздела  -->
         <link href="main-content/__title-section/main-content__title-section.css" rel="stylesheet">
@@ -46,29 +49,41 @@
 
         <!-- Верхняя часть меню  -->
         <nav class="
+                menu
                 mobile-menu__item 
                 top-menu">
 
             <!-- Кнопка выхода -->
-                <button class="
-                menu__item 
+            <button class="
+                menu-item 
                 button-menu
                 top-menu__item 
-                exit
-                button-menu" 
+                exit" 
                     type="button">
                 <img class="mobile-menu__icon-exit" src="top-menu/exit/icon-exit.svg" alt="Закрыть">
             </button>
 
             <!-- Логотип -->
-                <button class="
-                    menu__item 
-                    button-menu
-                    logo" 
-                        type="button">
-                    <img class="logo__icon-logo" src="menu/logo/icon-logo.svg" alt="На главную">
-                </button>
+            <button class="
+                menu-item 
+                button-menu
+                top-menu__item
+                logo
+                top-menu__logo" 
+                    type="button">
+                <img class="logo__icon-logo" src="../menu/logo/icon-logo.svg" alt="На главную">
+            </button>
 
+            <!-- Кнопка поиска -->
+            <button class="
+            menu-item 
+            button-menu
+            top-menu__item 
+            search"
+                type="button">
+            <img class="mobile-menu__icon-search" src="top-menu/search/icon-search.svg" alt="Поиск">
+        </button>
+        
         
         </nav>
 
