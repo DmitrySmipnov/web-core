@@ -16,7 +16,19 @@
     }
 
     .logo{
+        display: flex;
+        align-items: center;
         margin-right: 32.65vw;
+    }
+
+    .logo::before{
+        content: "";
+        width:2px;
+        height: 32px;
+        border-radius: 1px;    
+        background-image: url(menu/logo/strip-divider.svg);
+    
+        margin-right: 20.73px;
     }
 
     .phone{
