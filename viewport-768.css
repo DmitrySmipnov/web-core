@@ -60,12 +60,8 @@
         margin-right: 48px;
     }
 
-    .main-text-section__paragraph-320{
-        display: none;
-    }
-
     .main-text-section__paragraph-768{
-        display: block;
+        display: inline;
         margin-bottom: 10px;
     }
 
