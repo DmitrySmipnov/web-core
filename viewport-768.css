@@ -1,10 +1,11 @@
-.menu-item{
-    display: flex;
-}
 
 /* Корректировка основного меню  */
     .menu{
-        padding:24rem; 
+        padding:24px; 
+    }
+
+    .menu-item{
+        display: flex;
     }
 
     .menu__burger-menu{
@@ -50,18 +51,15 @@
 /* Корректировка основного содержания  */
     /* Название раздела  */
     .main-content__title-section{
-        /*border: 1px dashed black;*/
         padding:24px 0 32px 24px;
     }
 
     /* Меню раздела  */
     .menu-section{
-        /*border: 1px dashed black;*/
         margin-left: 24px;
     }
 
     /* Содержание раздела  */
-
     .content-section{
         display: flex;
     }
@@ -76,7 +74,7 @@
         margin-bottom: 10px;
     }
 
-    .main-text-section__paragraph-768{
+    .main-text-section__paragraph-hidden:first-child{
         display: inline;
     }
 

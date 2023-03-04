@@ -1,11 +1,10 @@
 .menu-section{
-    /*border: 1px dashed black;*/
     display: flex;
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
 
-    margin-bottom: 24rem;
+    margin-bottom: 24px;
     margin-left: 16px;
 }
 

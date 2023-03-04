@@ -1,8 +1,7 @@
 .main-content__title-section{
-    /*border: 1px dashed black;*/
     font-family: 'TT Lakes';
     font-size: 28rem;
-    line-height: 40rem;
+    line-height: 40px;
     letter-spacing: -0.6px;
     color: #1B1C21;
     font-weight: bold;
@@ -11,5 +10,5 @@
     background-repeat: no-repeat;
     background-position: left center;
 
-    padding:24rem 16rem 24rem 16rem;
+    padding:24px 16px 24px 16px;
 }

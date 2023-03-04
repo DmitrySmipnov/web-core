@@ -1,9 +1,7 @@
 .main-text-section{
-    /*border: 1px dashed black;*/
-
     font-family: 'TT Lakes';
     font-size: 14rem;
-    line-height: 18rem;
+    line-height: 18px;
     letter-spacing: 0.2px;
     color: #1B1C21;
     font-weight: normal;

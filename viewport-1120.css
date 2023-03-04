@@ -1,6 +1,5 @@
 
 /* Корректировка основного меню  */
-
 .menu{
     justify-content: flex-end;
     background: #F8F8F8;
@@ -38,7 +37,6 @@
 }
 
 /* Корректировка основного содержания  */
-
 .main-content__title-section{
     padding: 0 0 0 32px;
     margin-right: auto;
@@ -67,7 +65,7 @@
     margin-bottom: 13.78px;
 }
 
-.main-text-section__paragraph-1120{
+.main-text-section__paragraph-hidden{
     display: inline;
 }
 
