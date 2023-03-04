@@ -37,6 +37,10 @@
     margin-right:32px;
 }
 
+.application-repair::before{
+    visibility: hidden;
+}
+
 /* Корректировка основного содержания  */
 
 .main-content__title-section{
