@@ -13,7 +13,6 @@
     <link href="mobile-menu.css" rel="stylesheet">
 <!-- Стили для верхней части меню  -->
     <link href="../menu/menu.css" rel="stylesheet">
-    <link href="../menu/menu-item/menu-item.css" rel="stylesheet">
     <link href="../menu/button-menu/button-menu.css" rel="stylesheet">
     <link href="top-menu/exit/exit.css" rel="stylesheet">
     <link href="top-menu/top-menu.css" rel="stylesheet">
@@ -53,27 +52,25 @@
             </button>
 
             <!-- Логотип -->
-            <button class="
+            <a class="
                 menu-item 
                 button-menu
                 top-menu__item
                 logo
                 top-menu__logo" 
-                    type="button">
+                    href="#">
                 <img class="logo__icon-logo" src="../menu/logo/icon-logo.svg" alt="На главную">
-            </button>
+            </a>
 
             <!-- Кнопка поиска -->
             <button class="
-            menu-item 
-            button-menu
-            top-menu__item 
-            search"
-                type="button">
-            <img class="mobile-menu__icon-search" src="top-menu/search/icon-search.svg" alt="Поиск">
-        </button>
-        
-        
+                menu-item 
+                button-menu
+                top-menu__item 
+                search"
+                    type="button">
+                <img class="mobile-menu__icon-search" src="top-menu/search/icon-search.svg" alt="Поиск">
+            </button>
         </nav>
 
         <!-- Средняя часть меню  -->
@@ -82,104 +79,104 @@
                 middle-menu">
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Ремонт техники
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Ремонт техники
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Услуги и сервисы
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Услуги и сервисы
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Корпоративным клиентам
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Корпоративным клиентам
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Продавцам техники
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Продавцам техники
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Партнерам
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Партнерам
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Производителям
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Производителям
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Наши сервисные центры
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Наши сервисные центры
                 </button>
             </li>
             <li class="middle-menu__item">
                 <button class="
-                        middle-menu__button
-                        button-menu"
-                        type="button"> 
-                    Контакты
+                    middle-menu__button
+                    button-menu"
+                    type="button"> 
+                Контакты
                 </button>
             </li>
         </ul>
 
         <!-- Нижняя часть меню  -->
         <nav class="
-                menu
-                mobile-menu__item 
-                bottom-menu">
+            menu
+            mobile-menu__item 
+            bottom-menu">
 
             <!-- Кнопка телефона -->
             <button class="
-                        menu-item 
-                        button-menu
-                        bottom-menu__item 
-                        bottom-menu__phone" 
-                            type="button">
-                        <img class="bottom-menu__icon-phone" src="../menu/phone/icon-phone.svg" alt="Позвонить">
+                menu-item 
+                button-menu
+                bottom-menu__item
+                bottom-menu__phone" 
+                    type="button">
+                <img class="bottom-menu__icon-phone" src="../menu/phone/icon-phone.svg" alt="Позвонить">
             </button>
 
             <!-- Кнопка сообщения -->
             <button class="
-                        menu-item 
-                        button-menu
-                        bottom-menu__item
-                        bottom-menu__message" 
-                            type="button">
-                        <img class="bottom-menu__icon-message" src="../menu/message/icon-message.svg" alt="Написать">
+                menu-item 
+                button-menu
+                bottom-menu__item
+                bottom-menu__message" 
+                    type="button">
+                <img class="bottom-menu__icon-message" src="../menu/message/icon-message.svg" alt="Написать">
             </button>
 
             <!-- Кнопка профиля -->
             <button class="
-                        menu-item 
-                        button-menu
-                        bottom-menu__item 
-                        bottom-menu__profile"
-                            type="button">
-                        <img class="bottom-menu__icon-profile" src="../menu/profile/icon-profile.svg" alt="Профиль">
+                menu-item 
+                button-menu
+                bottom-menu__item 
+                bottom-menu__profile"
+                    type="button">
+                <img class="bottom-menu__icon-profile" src="../menu/profile/icon-profile.svg" alt="Профиль">
             </button>
         </nav>
 
@@ -188,32 +185,41 @@
         
             <!-- Электронная почта -->
             <p class="
-                    footer-menu__item 
-                    footer-menu__email">
-                mail@cps.com
+                footer-menu__item 
+                footer-menu__email">
+            mail@cps.com
             </p>
 
             <!-- Номер телефона -->
             <p class="
-                    footer-menu__item 
-                    footer-menu__tel">
-                8 800 890 8900
+                footer-menu__item 
+                footer-menu__tel">
+            8 800 890 8900
             </p>
 
             <!-- Выбор языка сайта  -->
-            <ul class="
+            <div class="
                     footer-menu__item
                     footer-menu__language">
-                <li class="footer-menu__language-item">
-                    RU
-                </li>
-                <li class="footer-menu__language-item">
-                    EN
-                </li>
-                <li class="footer-menu__language-item">
-                    CH
-                </li>
-            </ul>
+                <button class="
+                    footer-menu__language-item
+                    button-menu"
+                        type="button">
+                RU
+                </button>
+                <button class="
+                    footer-menu__language-item
+                    button-menu"
+                        type="button">
+                EN
+                </button>
+                <button class="
+                    footer-menu__language-item
+                    button-menu"
+                        type="button">
+                CH
+                </button>
+            </div>
         </footer>
         </section>
     </main>
