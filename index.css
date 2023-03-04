@@ -32,13 +32,11 @@
 }
 
 html{
-    /* border: 1px dashed black; */
     box-sizing: border-box;
     font-size:1px;
 }
 
 *, *:before, *:after{
-    /*border: 1px dashed black;*/
     box-sizing: inherit;
     padding:0;
     margin:0;
