@@ -1,9 +1,13 @@
 .middle-menu__item{
+    display: flex;
+    height: 32px;
     margin-bottom: 32px;
 }
 
-.middle-menu__item:hover{
-    background-image: url(../../../main-content/__title-section/highlighting-strip.svg);
-    background-repeat: no-repeat;
-    background-position: left center;
+.middle-menu__item:hover:before{
+    content: "";
+    width:4px;
+    height: 32px;
+    background-image: url(highlight.png);
+    position: absolute;
 }
