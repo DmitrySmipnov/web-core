@@ -63,9 +63,12 @@
     margin-right: 36px;
 }
 
+.main-text-section__paragraph:nth-child(2){
+    margin-bottom: 13.78px;
+}
+
 .main-text-section__paragraph-1120{
     display: inline;
-    margin-bottom: 13.78px;
 }
 
 .picture{

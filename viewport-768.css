@@ -60,9 +60,12 @@
         margin-right: 48px;
     }
 
+    .main-text-section__paragraph:nth-child(2){
+        margin-bottom: 10px;
+    }
+
     .main-text-section__paragraph-768{
         display: inline;
-        margin-bottom: 10px;
     }
 
     .picture{
