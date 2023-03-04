@@ -5,7 +5,6 @@
 
 .application-repair::before{
     content: "";
-    /* border: 1px solid; */
     width:2px;
     height: 32px;
     border-radius: 1px;    

@@ -1,6 +1,3 @@
-.viewport-1120{
-    display: block;
-}
 
 /* Корректировка основного меню  */
 
@@ -16,13 +13,12 @@
 
 .button-menu{
     display: flex;
-    align-self: center; 
+    align-items: center;
     background-color: inherit;
 }
 
 .text-button-menu{
-    align-self: center;
-
+    display: block;
     font-family: 'TT Lakes';
     font-size: 16px;
     line-height: 24px;

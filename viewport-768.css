@@ -1,5 +1,5 @@
-.viewport-768{
-    display: block;
+.menu-item{
+    display: flex;
 }
 
 /* Корректировка основного меню  */
