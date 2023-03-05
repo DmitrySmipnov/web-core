@@ -18,11 +18,11 @@
     content: "";
     width: 4px;
     height: 32px;
-    background-image: url(../__item/highlight.png);
+    background-image: url(highlight.svg);
     background-repeat: no-repeat;
     
     opacity: 0;
-    transition: opacity 0.7s;
+    transition: opacity 1s;
 
     margin-right: 20px;
 }
