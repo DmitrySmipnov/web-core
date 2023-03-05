@@ -1,10 +1,13 @@
 .footer-menu__language{
+    display: flex;
     list-style-type: none;
     font-weight: 500;
-
-    display: flex;
-
+    
     margin-bottom: 32px;
+}
+
+.footer-menu__language-item{
+    transition: color 0.7s;
 }
 
 .footer-menu__language-item:nth-child(2){
