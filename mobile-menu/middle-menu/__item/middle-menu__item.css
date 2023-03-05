@@ -2,12 +2,20 @@
     display: flex;
     height: 32px;
     margin-bottom: 32px;
+    
+    
 }
 
-.middle-menu__item:hover:before{
+.middle-menu__item::before{
     content: "";
-    width:4px;
+    width: 4px;
     height: 32px;
     background-image: url(highlight.png);
-    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.middle-menu__item:hover::before{
+    opacity: 1;
 }
