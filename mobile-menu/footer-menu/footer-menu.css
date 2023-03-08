@@ -9,8 +9,13 @@
 }
 
 .footer-menu__item:first-child{
-    margin-bottom: 12px;
+    display: block;
     font-weight: 500;
+    color: #1B1C21;
+    text-decoration: none;
+    
+    margin-bottom: 12px;
+    
 }
 
 .footer-menu__item:nth-child(2){
