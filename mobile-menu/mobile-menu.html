@@ -201,28 +201,34 @@
             </a>
 
             <!-- Выбор языка сайта  -->
-            <div class="
+            <form class="
                     footer-menu__item
-                    footer-menu__language">
-                <button class="
+                    footer-menu__language"
+                    method="get" action="#"
+                    name="form-language">
+                <input class="
                     footer-menu__language-item
                     button-menu"
-                        type="button">
-                RU
-                </button>
-                <button class="
+                    type="radio"
+                    name="language"
+                    value="ru"
+                    checked>
+                </input>
+                <input class="
                     footer-menu__language-item
                     button-menu"
-                        type="button">
-                EN
-                </button>
-                <button class="
+                    type="radio"
+                    name="language"
+                    value="en">
+                </input>
+                <input class="
                     footer-menu__language-item
                     button-menu"
-                        type="button">
-                CH
-                </button>
-            </div>
+                    type="radio"
+                    name="language"
+                    value="ch">
+                </input>
+            </form>
         </footer>
         </section>
     </main>
