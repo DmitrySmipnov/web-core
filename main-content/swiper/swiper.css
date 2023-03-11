@@ -1,6 +1,8 @@
 .swiper__header{
     display: flex;
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+
+    margin-bottom: 16px;
 }
 
 .swiper__title{
@@ -12,4 +14,26 @@
     color: #7E7E82;
 
     margin: 16px;
+}
+
+.swiper-wrapper{
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px; 
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+
+    
+}
+
+.swiper-pagination{
+    position: static;
 }
