@@ -1,10 +1,12 @@
-new Swiper('.swiper',{
-    width: 240,
+let sizeWiewport = window.matchMedia('(max-width: 767px)');
 
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
+if (sizeWiewport.matches){
+    new Swiper('.swiper',{
+        width: 240,
 
-});
-
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+}
