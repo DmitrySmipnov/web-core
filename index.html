@@ -28,7 +28,12 @@
         <link href="main-content/content-section/main-text-section/__button/main-text-section__button.css" rel="stylesheet">
     <!-- Стили для картинки раздела  -->
         <link href="main-content/content-section/picture/picture.css" rel="stylesheet">
-<!-- Стили для разных экранов  -->
+    <!-- Стили для свайпера  -->
+        <link href="main-content/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link href="main-content/swiper/swiper.css" rel="stylesheet">
+
+
+<!--Стили для разных экранов  -->
     <link media="(min-width: 768px) and (max-width: 1119px)" href="viewport-768.css" rel="stylesheet">
     <link media="(min-width: 1120px)" href="viewport-1120.css" rel="stylesheet">
 
@@ -237,7 +242,44 @@
                         picture"
                     src="main-content/content-section/picture/picture.png" alt="Логотип компании CPS">
             </div>
+
+        <!-- Слайдер с выбором брендов  -->
+            <div class="
+                main-content__item
+                swiper
+                swiper-brend">
+                <div class="swiper__header">
+                    <p class="swiper__title">
+                        Ремонт техники различных брендов  
+                    </p>
+                </div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="main-content/swiper-brend/Lenovo.svg" alt="Lenovo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="main-content/swiper-brend/Samsung.svg" alt="Samsung">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="main-content/swiper-brend/Apple.svg" alt="Apple">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        
+        
+        
+        
+        
+        
+            
+      
+
         </section>
     </main>
+
+<script src="main-content/swiper/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
