@@ -16,26 +16,18 @@
     margin: 16px;
 }
 
-.swiper-wrapper{
-    margin-bottom: 16px;
-}
-
 .swiper-wrapper-blur{
     width: 24px;
     height: 81px;
     position: absolute;
+    top: 90px;
     left: calc(100% - 24px);
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);    position: absolute;
     z-index: 2;
-
 }
 
-.swiper-wrapper-blur::after{
-    content: '';
-    width: 24px;
-    height: 81px;
-    position: absolute;
-    bottom: 9px;
-    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);    position: absolute;
+.swiper-wrapper{
+    margin-bottom: 16px;
 }
 
 .swiper-slide{
