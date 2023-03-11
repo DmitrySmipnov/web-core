@@ -8,5 +8,8 @@ if (sizeWiewport.matches){
             el: '.swiper-pagination',
             type: 'bullets',
         },
+
+        slidesPerView: 'auto',
+
     });
-}
+};
