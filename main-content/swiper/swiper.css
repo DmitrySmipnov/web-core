@@ -17,8 +17,25 @@
 }
 
 .swiper-wrapper{
-    padding-left: 16px;
     margin-bottom: 16px;
+}
+
+.swiper-wrapper-blur{
+    width: 24px;
+    height: 81px;
+    position: absolute;
+    left: calc(100% - 24px);
+    z-index: 2;
+
+}
+
+.swiper-wrapper-blur::after{
+    content: '';
+    width: 24px;
+    height: 81px;
+    position: absolute;
+    bottom: 9px;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);    position: absolute;
 }
 
 .swiper-slide{
@@ -30,6 +47,9 @@
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
     border-radius: 6px;
+
+    margin-left: 16px;
+
 }
 
 .swiper-pagination{
