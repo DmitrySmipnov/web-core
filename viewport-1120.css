@@ -91,7 +91,12 @@
     margin: 0 16px;
 }
 
+.button-expand-swiper-brend, 
+.button-expand__img, 
+.button-expand__text{
+    display: inline-block;
+}
+
 .button-expand-swiper-brend{
     margin-left: 39.29px;
-    display: block;
 }

@@ -108,7 +108,9 @@
         margin: 0 12px;
     }
 
-    .button-expand-swiper-brend{
-        display: block;
+    .button-expand-swiper-brend, 
+    .button-expand__img, 
+    .button-expand__text{
+        display: inline-block;
     }
 
