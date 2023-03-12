@@ -103,6 +103,10 @@
         padding: 0 12px;
     }
 
+    .swiper-wrapper-blur{
+        visibility: hidden;
+    }
+
     .swiper-slide{
         width: 224px;
         margin: 0 12px;

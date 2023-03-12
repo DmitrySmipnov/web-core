@@ -87,6 +87,10 @@
     padding: 0 16px;
 }
 
+.swiper-wrapper-blur{
+    visibility: hidden;
+}
+
 .swiper-slide{
     margin: 0 16px;
 }
