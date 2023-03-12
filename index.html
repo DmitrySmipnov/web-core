@@ -16,6 +16,7 @@
     <link href="menu/application-repair/application-repair.css" rel="stylesheet">
 <!-- Стили для основного содержания  -->
     <link href="main-content/main-content.css" rel="stylesheet">
+    <link href="main-content/button-expand/button-expand.css" rel="stylesheet">
     <!-- Стили для названия раздела  -->
         <link href="main-content/__title-section/main-content__title-section.css" rel="stylesheet">
     <!-- Стили для меню раздела  -->
@@ -25,7 +26,6 @@
     <!-- Стили для основного текста раздела  -->
         <link href="main-content/content-section/main-text-section/main-text-section.css" rel="stylesheet">
         <link href="main-content/content-section/main-text-section/__paragraph/main-text-section__paragraph.css" rel="stylesheet">
-        <link href="main-content/content-section/main-text-section/__button/main-text-section__button.css" rel="stylesheet">
     <!-- Стили для картинки раздела  -->
         <link href="main-content/content-section/picture/picture.css" rel="stylesheet">
     <!-- Стили для свайпера  -->
@@ -231,7 +231,9 @@
                 </p>
 
             <!-- Кнопка развертывания текста  -->
-                <button class="main-text-section__button"
+                <button class="
+                    main-text-section__button
+                    button-expand"
                         type="button">
                     Читать далее
                 </button>
@@ -255,7 +257,8 @@
                 </p>
             </div>
             <!-- Элемент для эффекта размытия справа свайпера  -->
-            <div class="swiper-wrapper-blur"></div>
+            <div class="swiper-wrapper-blur">
+            </div>
             <div class="swiper-wrapper">
                 <!-- Слайды -->
                 <div class="swiper-slide">
@@ -381,6 +384,16 @@
             <!-- Пангинатор  -->
             <div class="swiper-pagination"></div>
         </div>
+
+        <!-- Кнопка разворачивания  -->
+        <button class="
+            button-expand
+            button-expand-swiper-brend"
+                type="button"
+                hidden>
+            Показать все
+        </button>
+
 
     </section>
 </main>

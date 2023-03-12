@@ -73,3 +73,25 @@
     width: 47.4vw;
     height: 27.4vw;
 }
+
+/* Свайпер брендов  */
+.swiper__title{
+    margin-right: 32px;
+}
+
+.swiper-wrapper{
+    flex-wrap: wrap;
+    row-gap: 16px;
+    height: 160px;
+    overflow: hidden;
+    padding: 0 16px;
+}
+
+.swiper-slide{
+    margin: 0 16px;
+}
+
+.button-expand-swiper-brend{
+    margin-left: 39.29px;
+    display: block;
+}

@@ -1,4 +1,4 @@
-.main-text-section__button{
+.button-expand{
     border: 0;
     background-color: inherit;
     background-image: url(icon-button.svg);
@@ -11,7 +11,14 @@
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #1B1C21;
+}
 
+.main-text-section__button{
     margin-left: 8px;
+    padding-left: 24px;
+}
+
+.button-expand-swiper-brend{
+    margin-left: 32.29px;
     padding-left: 24px;
 }
