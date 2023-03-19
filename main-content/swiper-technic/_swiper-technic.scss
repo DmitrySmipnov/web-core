@@ -2,7 +2,6 @@
     height: 160px;
     flex-wrap: wrap;
     align-content: space-between;
-
     }
 
 .swiper-technic-title{
@@ -15,11 +14,16 @@
     font-weight: 500;
 
     margin: 16px 0 0 16px;
-
 }
 
 .swiper-technic-link{
     margin: 0 0 16px 184px;
-
-
 }
+
+.swiper-technic{
+    .swiper-wrapper-blur{
+        height: 166px;
+    }
+} 
+
+ 

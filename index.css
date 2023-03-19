@@ -97,3 +97,7 @@ body {
 .swiper-technic-link {
   margin: 0 0 16px 184px;
 }
+
+.swiper-technic .swiper-wrapper-blur {
+  height: 166px;
+}
