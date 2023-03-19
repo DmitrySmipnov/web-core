@@ -13,26 +13,54 @@ if (sizeWiewport.matches){
     });
 };
 
-let buttonExpandSwiperBrend = document.querySelector('.button-expand-swiper-brend');
-let swiperWrapper = document.querySelector('.swiper-wrapper');
-let buttonExpandClick;
-let buttonExpandText = document.querySelector('.button-expand-swiper-brend .button-expand__text');
-let buttonExpandImg = document.querySelector('.button-expand-swiper-brend .button-expand__img');
+// ФУНКЦИОНАЛ ДЛЯ КНОПОК ДЛЯ РАЗВОРАЧИВАНИЯ СКРЫТОГО КОНТЕНТА
 
-buttonExpandSwiperBrend.onclick = function(){
-    buttonExpandSwiperBrend.classList.toggle('.button-expand_open');
-    buttonExpandClick = buttonExpandSwiperBrend.classList.contains('.button-expand_open');
-    if(buttonExpandClick){
-        swiperWrapper.style.height = 'auto';
-        buttonExpandText.textContent = 'Скрыть';
-        buttonExpandImg.style.animationName = 'button-expand-rotate';
-    }
-    else{
-        swiperWrapper.style.height = '160px';
-        buttonExpandText.textContent = 'Показать все';
-        buttonExpandImg.style.animationName = 'none';
+// создаем коллекцию всех кнопок разворачивания:
+let buttonExpands = document.querySelectorAll('.button-expand');
+// создаем массив для сохранения текстов нажатых кнопок:
+let buttonExpandTextTemp = [];
+// в цикле навешиваем на каждую кнопку обработчик клика:
+for(let i = 0; i < buttonExpands.length; i++){
+    buttonExpands[i].onclick = function(){
+        // при клике на кнопку добавляем или убираем специальный класс:
+        buttonExpands[i].classList.toggle('.button-expand_open');
+        // в специальную переменую записываем результат проверки есть ли у кнопки специальный класс:
+        let buttonExpandClick = buttonExpands[i].classList.contains('.button-expand_open');
+        // находим элемент с текстом у этой кнопки:
+        let buttonExpandText = buttonExpands[i].querySelector('.button-expand__text');
+        // находим элемент со стрелочкой у этой кнопки:
+        let buttonExpandImg = buttonExpands[i].querySelector('.button-expand__img');
+        // находим предыдущий элемент в dom дереве:
+        let previousElementSibling = buttonExpands[i].previousElementSibling;
+        // в предыдущем элементе находим скрытый контент:
+        let hiddenContent = previousElementSibling.querySelector('.hidden-content');
+
+        // проверяем развернут ли контент:
+        if(buttonExpandClick){
+            // увеличиваем высоту у блока со скрытым контентом:
+            hiddenContent.style.height = 'auto';
+            // сохраняем в массив текст кнопки:
+            buttonExpandTextTemp[i] = buttonExpandText.textContent;
+            // меняем текст у кнопки:
+            buttonExpandText.textContent = 'Скрыть';
+            // поворачиваем стрелочки у кнопки:            
+            buttonExpandImg.style.animationName = 'button-expand-rotate';
+        }
+        // если текст не развернут:
+        else{
+            // возвращаем высоту у блока со скрытым контентом по умолчанию:
+            hiddenContent.style.height = null;
+            // возвращаем текст кнопки сохраненный в массиве:
+            buttonExpandText.textContent = buttonExpandTextTemp[i];
+            // поворачиваем стрелочки у кнопки обратно:
+            buttonExpandImg.style.animationName = 'none';
+        }
     }
 };
+
+
+
+
 
 
 
