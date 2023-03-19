@@ -34,8 +34,5 @@ buttonExpandSwiperBrend.onclick = function(){
     }
 };
 
-let menuBurgerMenu = document.querySelector('.menu__burger-menu');
-menuBurgerMenu.onclick = function(){
 
-};
 
