@@ -1,5 +1,6 @@
+@media (min-width: 1120px) {
 
-/* Корректировка основного меню  */
+// Корректировка основного меню 
 .menu{
     justify-content: flex-end;
     background: #F8F8F8;
@@ -36,7 +37,7 @@
     visibility: hidden;
 }
 
-/* Корректировка основного содержания  */
+// Корректировка основного содержания 
 .main-content__title-section{
     padding: 0 0 0 32px;
     margin-right: auto;
@@ -44,13 +45,13 @@
     top:42px;
 }
 
-/* Корректировка меню раздела  */
+// Корректировка меню раздела 
 .menu-section{
     flex-wrap: wrap;
     margin-left: 32px;
 }
 
-/* Содержание раздела  */
+// Содержание раздела  
 .content-section{
     display: flex;
 }
@@ -74,7 +75,7 @@
     height: 27.4vw;
 }
 
-/* Свайпер брендов  */
+// Свайпер брендов 
 .swiper__title{
     margin-right: 32px;
 }
@@ -103,4 +104,5 @@
 
 .button-expand-swiper-brend{
     margin-left: 39.29px;
+}
 }

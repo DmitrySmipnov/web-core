@@ -1,43 +1,27 @@
-@charset "UTF-8";
-/* Стили для основного меню */
 @import url(menu/menu.css);
 @import url(menu/button-menu/button-menu.css);
 @import url(menu/application-repair/application-repair.css);
-/* Стили для основного содержания */
 @import url(main-content/main-content.css);
 @import url(main-content/button-expand/button-expand.css);
-/* Стили для названия раздела */
 @import url(main-content/__title-section/main-content__title-section.css);
-/* Стили для меню раздела */
 @import url(main-content/menu-section/menu-section.css);
 @import url(main-content/menu-section/__item/menu-section__item.css);
 @import url(main-content/menu-section/__text-item/menu-section__text-item.css);
-/* Стили для основного текста раздела */
 @import url(main-content/content-section/main-text-section/main-text-section.css);
 @import url(main-content/content-section/main-text-section/__paragraph/main-text-section__paragraph.css);
-/* Стили для картинки раздела */
 @import url(main-content/content-section/picture/picture.css);
-/* Стили для свайпера */
 @import url(main-content/swiper/swiper-bundle.min.css);
 @import url(main-content/swiper/swiper.css);
 @import url(main-content/swiper-brend/swiper-brend.css);
-/* Стили для бокового меню  */
 @import url(mobile-menu/mobile-menu.css);
-/* Стили для верхней части меню  */
 @import url(mobile-menu/top-menu/exit/exit.css);
 @import url(mobile-menu/top-menu/top-menu.css);
 @import url(mobile-menu/top-menu/__logo/top-menu__logo.css);
-/* Стили для средней части меню  */
 @import url(mobile-menu/middle-menu/middle-menu.css);
 @import url(mobile-menu/middle-menu/__button/middle-menu__button.css);
-/* Стили для нижней части меню  */
 @import url(mobile-menu/bottom-menu/bottom-menu.css);
-/* Стили для подвала меню  */
 @import url(mobile-menu/footer-menu/footer-menu.css);
 @import url(mobile-menu/footer-menu/__language/footer-menu__language.css);
-/* Стили для разных экранов */
-@import url(viewport-768.css) (min-width: 768px) and (max-width: 1119px);
-@import url(viewport-1120.css) (min-width: 1120px);
 @font-face {
   font-family: "TT Lakes";
   src: url(fonts/TTLakes-Regular.eot);
@@ -139,4 +123,261 @@ body {
   position: absolute;
   left: calc(100% - 135px);
   top: calc(100% - 48px);
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+  .menu {
+    padding: 24px;
+  }
+  .menu-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu__burger-menu {
+    margin-right: 2.6vw;
+  }
+  .menu__strip-divider {
+    margin-right: 2.7vw;
+  }
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 32.65vw;
+  }
+  .logo::before {
+    content: "";
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background-image: url(menu/logo/strip-divider.svg);
+    margin-right: 20.73px;
+  }
+  .phone {
+    margin-right: 2.1vw;
+  }
+  .message {
+    margin-right: 2.1vw;
+  }
+  .profile {
+    margin-right: 2.6vw;
+  }
+  .application-repair {
+    margin-right: 2.1vw;
+  }
+  .main-content__title-section {
+    padding: 24px 0 32px 24px;
+  }
+  .menu-section {
+    margin-left: 24px;
+  }
+  .content-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-text-section {
+    width: 40.6vw;
+    margin-left: 24px;
+    margin-right: 48px;
+  }
+  .main-text-section__paragraph:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  .main-text-section__paragraph-hidden:first-child {
+    display: inline;
+  }
+  .picture {
+    width: 46.9vw;
+    height: 27.1vw;
+  }
+  .swiper__header {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    background: -webkit-gradient(linear, left top, right top, color-stop(1.39%, #F8F8F8), to(#FFFFFF));
+    background: -o-linear-gradient(left, #F8F8F8 1.39%, #FFFFFF 100%);
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+  }
+  .swiper__title {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    margin-left: 24px;
+  }
+  .swiper-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 16px;
+    height: 160px;
+    overflow: hidden;
+    padding: 0 12px;
+  }
+  .swiper-wrapper-blur {
+    visibility: hidden;
+  }
+  .swiper-slide {
+    width: 224px;
+    margin: 0 12px;
+  }
+  .button-expand-swiper-brend,
+  .button-expand__img,
+  .button-expand__text {
+    display: inline-block;
+  }
+  .swiper__header {
+    margin-bottom: 63px;
+  }
+  .swiper-wrapper {
+    overflow: visible;
+  }
+  .swiper-slide-prices {
+    width: 100%;
+    height: 64px;
+  }
+  .swiper-slide-prices__content {
+    white-space: nowrap;
+  }
+  .swiper-slide-prices__content:nth-child(odd) {
+    height: 0;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    position: relative;
+    bottom: 46px;
+    margin-top: 16px;
+  }
+  .swiper-slide-prices__content:nth-child(1) {
+    width: 126px;
+    margin-right: 33%;
+  }
+  .swiper-slide-prices__content:nth-child(2) {
+    width: 126px;
+    margin-right: 33%;
+  }
+  .swiper-slide-prices__content:nth-child(3) {
+    width: 35px;
+    margin-left: 0;
+    margin-right: 8%;
+  }
+  .swiper-slide-prices__content:nth-child(4) {
+    width: 35px;
+    margin-left: 0;
+    margin-right: 8%;
+  }
+  .swiper-slide-prices__content:nth-child(5) {
+    width: 35px;
+    margin-left: 0;
+    margin-right: 30%;
+  }
+  .swiper-slide-prices__content:nth-child(6) {
+    width: 35px;
+    margin-left: 0;
+    margin-right: 30%;
+  }
+  .swiper-prices-link {
+    position: absolute;
+    left: calc(100% - 135px);
+    top: calc(100% - 48px);
+  }
+}
+@media (min-width: 1120px) {
+  .menu {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background: #F8F8F8;
+    padding: 42px 32px 8.37px 0;
+  }
+  .menu-item:not(.application-repair, .repair-status) {
+    display: none;
+  }
+  .button-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: inherit;
+  }
+  .text-button-menu {
+    display: block;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    padding-right: 8px;
+  }
+  .application-repair {
+    margin-right: 32px;
+  }
+  .application-repair::before {
+    visibility: hidden;
+  }
+  .main-content__title-section {
+    padding: 0 0 0 32px;
+    margin-right: auto;
+    position: absolute;
+    top: 42px;
+  }
+  .menu-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 32px;
+  }
+  .content-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-text-section {
+    width: 43.8vw;
+    margin-left: 34px;
+    margin-right: 36px;
+  }
+  .main-text-section__paragraph:nth-child(2) {
+    margin-bottom: 13.78px;
+  }
+  .main-text-section__paragraph-hidden {
+    display: inline;
+  }
+  .picture {
+    width: 47.4vw;
+    height: 27.4vw;
+  }
+  .swiper__title {
+    margin-right: 32px;
+  }
+  .swiper-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 16px;
+    height: 160px;
+    overflow: hidden;
+    padding: 0 16px;
+  }
+  .swiper-wrapper-blur {
+    visibility: hidden;
+  }
+  .swiper-slide {
+    margin: 0 16px;
+  }
+  .button-expand-swiper-brend,
+  .button-expand__img,
+  .button-expand__text {
+    display: inline-block;
+  }
+  .button-expand-swiper-brend {
+    margin-left: 39.29px;
+  }
 }
