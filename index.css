@@ -165,6 +165,11 @@ body {
   left: 5px;
 }
 
+footer {
+  width: 100%;
+  position: absolute;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,6 +180,7 @@ body {
           flex-direction: column;
   gap: 16px;
   background-color: #F8F8F8;
+  width: 100%;
   font-family: "TT Lakes";
   font-size: 14px;
   line-height: 16px;
@@ -182,14 +188,17 @@ body {
   color: #7E7E82;
   mix-blend-mode: normal;
   opacity: 0.72;
-  padding-bottom: 16px;
+  padding: 16px 0px;
 }
 
 .footer::before {
   content: "";
+  display: block;
   width: 100%;
   height: 1px;
   background-color: #D9FFF5;
+  position: absolute;
+  top: 1px;
 }
 
 @media (min-width: 768px) and (max-width: 1119px) {
@@ -368,7 +377,24 @@ body {
     margin-left: 24px;
   }
   .order {
+    padding-bottom: 47px;
     margin-left: 24px;
+  }
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 32px 24px 25px 24px;
+  }
+  .footer-item {
+    width: 33%;
+  }
+  .footer-item:first-child {
+    text-align: left;
+  }
+  .footer-item:last-child {
+    text-align: right;
   }
 }
 @media (min-width: 1120px) {
@@ -533,6 +559,23 @@ body {
     margin-left: 32px;
   }
   .order {
+    padding-bottom: 50px;
     margin-left: 32px;
+  }
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 32px 32px 21px 32px;
+  }
+  .footer-item {
+    width: 33%;
+  }
+  .footer-item:first-child {
+    text-align: left;
+  }
+  .footer-item:last-child {
+    text-align: right;
   }
 }

@@ -1,8 +1,14 @@
+footer{
+    width: 100%;
+    position: absolute;
+}
+
 .footer{
     display: flex;
     flex-direction: column;
     gap: 16px;
     background-color: #F8F8F8;
+    width: 100%;
 
     font-family: 'TT Lakes';
     font-size: 14px;
@@ -12,12 +18,15 @@
     mix-blend-mode: normal;
     opacity: 0.72;
 
-    padding-bottom: 16px;
+    padding: 16px 0px;
 }
 
 .footer::before{
     content: '';
+    display: block;
     width: 100%;
     height: 1px;
     background-color: #D9FFF5;
+    position: absolute;
+    top: 1px;
 }

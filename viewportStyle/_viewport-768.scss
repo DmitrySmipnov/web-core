@@ -201,7 +201,28 @@
 }
 
 .order{
+    padding-bottom: 47px;
     margin-left: 24px;
 }
+
+// Подвал 
+.footer{
+    flex-direction: row;
+
+    padding: 32px 24px 25px 24px;
+}
+.footer-item{
+    width: 33%;
+}
+
+.footer-item:first-child{
+    text-align: left;
+}
+
+.footer-item:last-child{
+    text-align: right;
+}
+
+
 
 }
