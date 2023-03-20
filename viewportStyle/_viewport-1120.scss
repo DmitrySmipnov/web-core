@@ -108,6 +108,7 @@
 
 // Свайпер с ценами
 .swiper-prices{
+    margin-bottom: 32px;
     .swiper-wrapper{
         height: auto;
         row-gap: 0;
@@ -181,7 +182,15 @@
     top: calc(100% - 48px);
 }
 
+// Примечание 
+.note{
+    width: 421px;
+    margin-left: 32px;
+}
 
+.order{
+    margin-left: 32px;
+}
 
 
 

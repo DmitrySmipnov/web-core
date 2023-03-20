@@ -86,6 +86,10 @@ body {
   height: 166px;
 }
 
+.swiper-prices {
+  margin-bottom: 16px;
+}
+
 .swiper-slide-prices {
   width: 260px;
   height: 200px;
@@ -123,6 +127,41 @@ body {
   position: absolute;
   left: calc(100% - 135px);
   top: calc(100% - 48px);
+}
+
+.note {
+  font-family: "TT Lakes";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #1B1C21;
+  padding-bottom: 17.5px;
+  margin: 0px 16px;
+}
+
+.order {
+  display: block;
+  font-family: "TT Lakes";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+  font-weight: 500;
+  text-decoration: none;
+  padding-bottom: 40px;
+  margin: 0px 16px;
+}
+
+.order::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 11.45px;
+  background-image: url(main-content/order/line.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2px;
+  left: 5px;
 }
 
 @media (min-width: 768px) and (max-width: 1119px) {
@@ -232,6 +271,9 @@ body {
   .button-expand__text {
     display: inline-block;
   }
+  .swiper-prices {
+    margin-bottom: 24px;
+  }
   .swiper-prices .swiper-wrapper {
     height: auto;
     row-gap: 0;
@@ -292,6 +334,13 @@ body {
     position: absolute;
     left: calc(100% - 135px);
     top: calc(100% - 48px);
+  }
+  .note {
+    width: 421px;
+    margin-left: 24px;
+  }
+  .order {
+    margin-left: 24px;
   }
 }
 @media (min-width: 1120px) {
@@ -386,6 +435,9 @@ body {
   .button-expand-swiper-brend {
     margin-left: 39.29px;
   }
+  .swiper-prices {
+    margin-bottom: 32px;
+  }
   .swiper-prices .swiper-wrapper {
     height: auto;
     row-gap: 0;
@@ -447,5 +499,12 @@ body {
     position: absolute;
     left: calc(100% - 135px);
     top: calc(100% - 48px);
+  }
+  .note {
+    width: 421px;
+    margin-left: 32px;
+  }
+  .order {
+    margin-left: 32px;
   }
 }
