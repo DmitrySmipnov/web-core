@@ -124,16 +124,13 @@
     .swiper-wrapper{
         height: auto;
         row-gap: 0;
-        ;
+        overflow: visible;
+        margin-right: 24px;
     }
 }
 
 .swiper__header{
     margin-bottom: 63px;
-}
-
-.swiper-wrapper{
-    overflow: visible;
 }
 
 .swiper-slide-prices{
@@ -149,8 +146,7 @@
     background-color: #EAEAEA;
     position: absolute;
     top: calc(100% - 1px);
-    left: 2.5%;
-
+    left: 16px;
 }
 
 .swiper-slide-prices__content{
@@ -171,38 +167,24 @@
     visibility: visible;
 }
 
-.swiper-slide-prices__content:nth-child(1){
-    width: 126px;
-    margin-right: 33%;
-}
-
+.swiper-slide-prices__content:nth-child(1),
 .swiper-slide-prices__content:nth-child(2){
-    width: 126px;
-    margin-right: 33%;
+    width: 350px;
+    margin-right: 2%;
 }
 
-.swiper-slide-prices__content:nth-child(3){
-    width: 35px;
-    margin-left: 0;
-    margin-right: 8%;
-}
-
+.swiper-slide-prices__content:nth-child(3),
 .swiper-slide-prices__content:nth-child(4){
-    width: 35px;
+    width: 74px;
     margin-left: 0;
-    margin-right: 8%;
+    margin-right: 2%;
 }
 
-.swiper-slide-prices__content:nth-child(5){
-    width: 35px;
-    margin-left: 0;
-    margin-right: 30%;
-}
-
+.swiper-slide-prices__content:nth-child(5),
 .swiper-slide-prices__content:nth-child(6){
-    width: 35px;
+    width: 81px;
     margin-left: 0;
-    margin-right: 30%;
+    margin-right: 22%;
 }
 
 .swiper-prices-link{
@@ -210,10 +192,6 @@
     left: calc(100% - 135px);
     top: calc(100% - 48px);
 }
-
-
-
-
 
 
 
