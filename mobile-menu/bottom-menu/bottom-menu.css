@@ -1,8 +1,12 @@
 .bottom-menu{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
     padding:0;
     margin-bottom: 16px;
-    justify-content: flex-start;
-    height:auto;
 }
 
 .bottom-menu__item:first-child{

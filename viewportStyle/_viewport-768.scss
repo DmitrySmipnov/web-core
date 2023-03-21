@@ -1,5 +1,11 @@
 @media (min-width: 768px) and (max-width: 1119px) {
 // Корректировка мобильного меню 
+.wrapper-mobile-menu__blur{
+    width: 90%;
+    height: 1109px;
+    flex-shrink:1000;
+}
+
 .mobile-menu{
     width: 320px;
 }

@@ -23,6 +23,12 @@ let exit = document.querySelector('.exit');
 exit.onclick = function(){
     wrapperMobileMenu.style.left = '-150%';
 };
+let wrapperMobileMenuBlur = document.querySelector('.wrapper-mobile-menu__blur');
+wrapperMobileMenuBlur.onclick = function(){
+    wrapperMobileMenu.style.left = '-150%';
+};
+
+
 
 
 // ФУНКЦИОНАЛ ДЛЯ КНОПОК ДЛЯ РАЗВОРАЧИВАНИЯ СКРЫТОГО КОНТЕНТА
