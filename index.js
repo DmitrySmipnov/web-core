@@ -15,13 +15,13 @@ if (sizeWiewport.matches){
 
 // ФУНКЦИОНАЛ ДЛЯ КНОПКИ БУРГЕР-МЕНЮ И ЗАКРЫВАЮЩЕЙ КНОПКИ
 let menuBurgerMenu = document.querySelector('.menu__burger-menu');
-let mobileMenu = document.querySelector('.mobile-menu');
+let wrapperMobileMenu = document.querySelector('.wrapper-mobile-menu');
 menuBurgerMenu.onclick = function(){
-    mobileMenu.style.left = '0';
+    wrapperMobileMenu.style.left = '0';
 };
 let exit = document.querySelector('.exit');
 exit.onclick = function(){
-    mobileMenu.style.left = '-150%';
+    wrapperMobileMenu.style.left = '-150%';
 };
 
 

@@ -1,13 +1,7 @@
 .mobile-menu{
     width: 100%; 
-    position: absolute;
-    top:0;
-    left:-150%;
     background-color: #FFFFFF;
-    z-index: 2;
-    transition: left 0.5s;
-
-
+    
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 
