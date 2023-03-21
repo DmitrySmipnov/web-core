@@ -1,5 +1,5 @@
 .mobile-menu{
-    width: 320px; 
+    width: 100%; 
     position: absolute;
     top:0;
     left:-150%;
