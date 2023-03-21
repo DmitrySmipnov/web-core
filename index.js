@@ -13,8 +13,19 @@ if (sizeWiewport.matches){
     });
 };
 
-// ФУНКЦИОНАЛ ДЛЯ КНОПОК ДЛЯ РАЗВОРАЧИВАНИЯ СКРЫТОГО КОНТЕНТА
+// ФУНКЦИОНАЛ ДЛЯ КНОПКИ БУРГЕР-МЕНЮ И ЗАКРЫВАЮЩЕЙ КНОПКИ
+let menuBurgerMenu = document.querySelector('.menu__burger-menu');
+let mobileMenu = document.querySelector('.mobile-menu');
+menuBurgerMenu.onclick = function(){
+    mobileMenu.style.left = '0';
+};
+let exit = document.querySelector('.exit');
+exit.onclick = function(){
+    mobileMenu.style.left = '-150%';
+};
 
+
+// ФУНКЦИОНАЛ ДЛЯ КНОПОК ДЛЯ РАЗВОРАЧИВАНИЯ СКРЫТОГО КОНТЕНТА
 // создаем коллекцию всех кнопок разворачивания:
 let buttonExpands = document.querySelectorAll('.button-expand');
 // создаем массив для сохранения текстов нажатых кнопок:
