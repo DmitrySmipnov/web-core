@@ -17,7 +17,8 @@ let bottomMenuMessage = document.querySelector('.bottom-menu__message');
 let wrapperFeedback = document.querySelector('.wrapper-feedback');
 bottomMenuMessage.onclick = function(){
     wrapperFeedback.style.left = '0';
-    wrapperFeedback.scrollIntoView(true);
+    wrapperFeedback.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+    // wrapperFeedback.scrollIntoView(true);
 };
 let feedbackExit = document.querySelector('.feedback-exit');
 feedbackExit.onclick = function(){
