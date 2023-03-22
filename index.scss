@@ -82,6 +82,9 @@ margin:0;
 body{
 margin:0;
 }
+// Стили для модального окна "Обратная связь"
+@import 'feedback/feedback';
+
 
 // Стили для мобильного меню 
 @import 'mobile-menu/wrapper-mobile-menu.scss';

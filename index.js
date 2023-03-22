@@ -12,6 +12,17 @@ if (sizeWiewport.matches){
         slidesPerView: 'auto',
     });
 };
+// ФУНКЦИОНАЛ ДЛЯ ОТКРЫТИЯ МОДАЛЬНОГО ОКНА "ОБРАТНАЯ СВЯЗЬ"
+let bottomMenuMessage = document.querySelector('.bottom-menu__message');
+let wrapperFeedback = document.querySelector('.wrapper-feedback');
+bottomMenuMessage.onclick = function(){
+    wrapperFeedback.style.left = '0';
+};
+let feedbackExit = document.querySelector('.feedback-exit');
+feedbackExit.onclick = function(){
+    wrapperFeedback.style.left = '-150%';
+};
+
 
 // ФУНКЦИОНАЛ ДЛЯ КНОПКИ БУРГЕР-МЕНЮ И ЗАКРЫВАЮЩЕЙ КНОПКИ
 let menuBurgerMenu = document.querySelector('.menu__burger-menu');
@@ -27,9 +38,6 @@ let wrapperMobileMenuBlur = document.querySelector('.wrapper-mobile-menu__blur')
 wrapperMobileMenuBlur.onclick = function(){
     wrapperMobileMenu.style.left = '-150%';
 };
-
-
-
 
 // ФУНКЦИОНАЛ ДЛЯ КНОПОК ДЛЯ РАЗВОРАЧИВАНИЯ СКРЫТОГО КОНТЕНТА
 // создаем коллекцию всех кнопок разворачивания:

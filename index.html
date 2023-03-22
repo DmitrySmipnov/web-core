@@ -16,6 +16,44 @@
 </head>
 
 <body>
+    <!-- Модальное окно "Обратная связь" -->
+    <section class="wrapper-feedback">
+        <div class="wrapper-feedback__blur">
+        </div>
+        <div class="feedback">
+            <!-- Кнопка выхода -->
+            <button class="
+                button-menu
+                feedback-exit" 
+                type="button">
+                <img src="mobile-menu/top-menu/exit/icon-exit.svg" alt="Закрыть">
+            </button>
+            <h1 class="
+                feedback-title">
+                Обратная связь
+            </h1>
+            <form action="#" method="get" name="feedback">
+                <input class="input-field"
+                    type="text" name="username" id="" required autocomplete placeholder="Имя">
+                <input class="input-field"
+                    type="tel" name="usertel" id="" required autocomplete placeholder="Телефон">
+                <input class="input-field"
+                    type="email" name="usermail" id="" required autocomplete placeholder="Электронная почта">
+                <textarea class="input-field" id="" name="message" placeholder="Сообщение"></textarea>
+            </form>
+            <p>
+                Нажимая “отправить”, вы даете согласие на обработку персональных данных и соглашаетесь с нашей политикой конфиденциальности
+            </p>
+            <button class="
+                button-menu
+                feedback-button-send"
+                type="submit">
+                <span>ОТПРАВИТЬ</span> 
+            </button>
+        </div>
+    </section>
+
+
     <!-- Мобильное меню  -->
     <section class="wrapper-mobile-menu">
         <div class="mobile-menu">
@@ -353,12 +391,10 @@
             <div class="
                 main-content__item
                 content-section">
-
                 <!-- Основной текст раздела  -->
                 <div class="
                     content-section__item
                     main-text-section">
-
                 <!-- Абзацы текста  -->
                     <p class="main-text-section__paragraph">
                         Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
@@ -376,7 +412,6 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vero, minima distinctio blanditiis veniam saepe alias voluptatem hic explicabo ullam nisi quae, rem fuga ea odit! Porro labore saepe voluptatibus.
                         </p>
                     </div>
-
                 <!-- Кнопка развертывания текста  -->
                     <button class="
                         main-text-section__button
@@ -390,7 +425,6 @@
                         </span> 
                     </button>
                 </div>
-
                 <!-- Картинка оформления  -->
                 <img class="
                         content-section__item 
