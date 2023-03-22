@@ -60,20 +60,21 @@ body {
 }
 
 .wrapper-feedback {
+  min-height: 1110px;
   position: absolute;
   top: 0;
   left: -150%;
   z-index: 3;
-  -webkit-transition: left 0.5s;
-  -o-transition: left 0.5s;
-  transition: left 0.5s;
-  background: #FFFFFF;
+  -webkit-transition: left 0.2s;
+  -o-transition: left 0.2s;
+  transition: left 0.2s;
 }
 
 .feedback {
   width: 320px;
-  height: 676px;
+  min-height: 1110px;
   font-family: "TT Lakes";
+  background: #FFFFFF;
 }
 .feedback .input-field {
   height: 48px;

@@ -1,18 +1,18 @@
 .wrapper-feedback{
+    min-height: 1110px;
     position: absolute;
     top:0;
     left:-150%;
     z-index: 3;
-    transition: left 0.5s;
-    background: #FFFFFF;
-
+    transition: left 0.2s;
 }
 
 .feedback{
     width: 320px;
-    height: 676px;
+    min-height: 1110px;
+
     font-family: 'TT Lakes';
-    
+    background: #FFFFFF;
     .input-field{
         height: 48px;
         width: 288px;
