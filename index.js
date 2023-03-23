@@ -13,13 +13,14 @@ if (sizeWiewport.matches){
     });
 };
 // ФУНКЦИОНАЛ ДЛЯ ОТКРЫТИЯ МОДАЛЬНОГО ОКНА "ОБРАТНАЯ СВЯЗЬ"
-let bottomMenuMessage = document.querySelector('.bottom-menu__message');
+let menuMessage = document.querySelectorAll('.menu-message');
 let wrapperFeedback = document.querySelector('.wrapper-feedback');
-bottomMenuMessage.onclick = function(){
+for(let i = 0; i < menuMessage.length; i++){
+    menuMessage[i].onclick = function(){
     wrapperFeedback.style.left = '0';
     wrapperFeedback.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
-    // wrapperFeedback.scrollIntoView(true);
-};
+    };
+}
 let feedbackExit = document.querySelector('.feedback-exit');
 feedbackExit.onclick = function(){
     wrapperFeedback.style.left = '-150%';

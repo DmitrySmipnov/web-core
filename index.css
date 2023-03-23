@@ -60,7 +60,7 @@ body {
 }
 
 .wrapper-feedback {
-  min-height: 1110px;
+  width: 100%;
   position: absolute;
   top: 0;
   left: -150%;
@@ -68,10 +68,13 @@ body {
 }
 
 .feedback {
-  width: 320px;
+  width: 100%;
   min-height: 1110px;
   font-family: "TT Lakes";
   background: #FFFFFF;
+}
+.feedback .wrapper-content {
+  width: 320px;
 }
 .feedback .input-field {
   height: 48px;
@@ -349,7 +352,7 @@ footer {
   top: 1px;
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (min-width: 768px) and (max-width: 1439px) {
   .wrapper-mobile-menu__blur {
     width: 90%;
     height: 1109px;
@@ -554,7 +557,7 @@ footer {
     text-align: right;
   }
 }
-@media (min-width: 1120px) {
+@media (min-width: 1440px) {
   .wrapper-mobile-menu {
     width: 320px;
     left: 0;
