@@ -26,6 +26,21 @@ feedbackExit.onclick = function(){
     wrapperFeedback.style.left = '-150%';
 };
 
+// ФУНКЦИОНАЛ ДЛЯ ОТКРЫТИЯ МОДАЛЬНОГО ОКНА "ЗАКАЗАТЬ ЗВОНОК"
+let menuPhone = document.querySelectorAll('.menu-phone');
+let wrapperOrderCall = document.querySelector('.wrapper-order-call');
+for(let i = 0; i < menuPhone.length; i++){
+    menuPhone[i].onclick = function(){
+    wrapperOrderCall.style.left = '0';
+    wrapperOrderCall.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+    };
+}
+let orderCallExit = document.querySelector('.order-call-exit');
+orderCallExit.onclick = function(){
+    wrapperOrderCall.style.left = '-150%';
+};
+
+
 
 // ФУНКЦИОНАЛ ДЛЯ КНОПКИ БУРГЕР-МЕНЮ И ЗАКРЫВАЮЩЕЙ КНОПКИ
 let menuBurgerMenu = document.querySelector('.menu__burger-menu');

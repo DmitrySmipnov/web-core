@@ -84,6 +84,8 @@ body{
 }
 // Стили для модального окна "Обратная связь"
 @import 'feedback/feedback';
+// Стили для модального окна "Заказать звонок"
+@import 'order-call/order-call';
 
 
 // Стили для мобильного меню 
@@ -99,7 +101,7 @@ body{
 
 // Стили для разных экранов
 @import 'viewportStyle/viewport-768';
-@import 'viewportStyle/viewport-1120';
+@import 'viewportStyle/viewport-1440';
 
 
 

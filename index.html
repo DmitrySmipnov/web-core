@@ -55,6 +55,40 @@
         </div>
     </section>
 
+    <!-- Модальное окно "Заказать звонок" -->
+    <section class="wrapper-order-call">
+        <div class="wrapper-feedback__blur">
+        </div>
+        <div class="feedback">
+            <div class="wrapper-content">
+            <!-- Кнопка выхода -->
+            <button class="
+                button-menu
+                order-call-exit" 
+                type="button">
+                <img src="mobile-menu/top-menu/exit/icon-exit.svg" alt="Закрыть">
+            </button>
+            <h1 class="
+                feedback-title">
+                Заказать звонок
+            </h1>
+            <form action="#" method="get" name="order-call">
+                <input class="input-field"
+                    type="tel" name="usertel" id="" required autocomplete placeholder="Телефон">
+            </form>
+            <p>
+                Нажимая “отправить”, вы даете согласие на обработку персональных данных и соглашаетесь с нашей политикой конфиденциальности
+            </p>
+            <button class="
+                button-menu
+                feedback-button-send"
+                type="submit">
+                <span>ОТПРАВИТЬ</span> 
+            </button>
+            </div>  
+        </div>
+    </section>
+
 
     <!-- Мобильное меню  -->
     <section class="wrapper-mobile-menu">
@@ -166,7 +200,7 @@
                 <button class="
                     button-menu
                     bottom-menu__item
-                    bottom-menu__phone" 
+                    menu-phone" 
                         type="button">
                     <img class="bottom-menu__icon-phone" src="menu/phone/icon-phone.svg" alt="Позвонить">
                 </button>
@@ -263,7 +297,8 @@
         <button class="
             menu-item
             button-menu
-            phone"
+            phone
+            menu-phone"
             hidden 
                 type="button">
             <img class="phone__icon-phone" src="menu/phone/icon-phone.svg" alt="Заявка на ремонт">

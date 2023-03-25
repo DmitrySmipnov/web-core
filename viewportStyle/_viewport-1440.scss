@@ -46,6 +46,20 @@
 .feedback-title{
     margin-top: 40px;
 }
+
+// Корректировка модального окна "Заказать звонок"
+.wrapper-order-call{
+    display: flex;
+    width: calc(100% + 320px);
+    position: absolute;
+}
+.order-call-exit{
+    position: absolute;
+    left: -72px;
+    top: 32px;
+    margin: 0;
+}
+
 // Корректировка мобильного меню
 .wrapper-mobile-menu{
     width: 320px;
